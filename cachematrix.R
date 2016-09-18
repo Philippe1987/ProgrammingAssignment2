@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Functions that invert a non singular square matrix but saves time by looking for an existing calculation on the cache memory
 
-## Write a short comment describing this function
+## List of useful functions to set and get a matrix and its inverse from the cache memory
 
 makeCacheMatrix <- function(x = matrix()) {
       
@@ -24,7 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Computes the inverse of a matrix but firt looks into the cache memory
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
